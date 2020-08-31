@@ -1,5 +1,6 @@
 module test_grapeql_ql
 
+using Test
 using GrapeQL
 
 @ql {
@@ -110,5 +111,7 @@ using GrapeQL
     }
   }
 }
+
+@test true
 
 end # module test_grapeql_ql
